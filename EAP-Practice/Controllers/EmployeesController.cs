@@ -21,9 +21,19 @@ namespace EAP_Practice.Controllers
         }
 
         // GET: Employees
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Employee.ToListAsync());
+            ViewData["CurrentFilter"] = searchString;
+
+            var employees = from s in _context.Employee
+                           select s;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                employees = employees.Where(s => s.Name.Contains(searchString));
+                                      
+            }
+           
+            return View(await employees.AsNoTracking().ToListAsync());
         }
 
         // GET: Employees/Details/5
