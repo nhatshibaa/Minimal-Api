@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{324373FD-B940-41E4-A18E-991C5380EBAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApi", "FoodApi\FoodApi.csproj", "{90A027A6-970B-4B42-8040-8061B6B39750}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodApi", "FoodApi\FoodApi.csproj", "{90A027A6-970B-4B42-8040-8061B6B39750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAP-Practice", "EAP-Practice\EAP-Practice.csproj", "{4420341C-4E38-4556-A58F-6CA51527F29A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{90A027A6-970B-4B42-8040-8061B6B39750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90A027A6-970B-4B42-8040-8061B6B39750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90A027A6-970B-4B42-8040-8061B6B39750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4420341C-4E38-4556-A58F-6CA51527F29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4420341C-4E38-4556-A58F-6CA51527F29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4420341C-4E38-4556-A58F-6CA51527F29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4420341C-4E38-4556-A58F-6CA51527F29A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
